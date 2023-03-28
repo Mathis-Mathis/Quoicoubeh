@@ -1,0 +1,36 @@
+body, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 60px;
+  }
+
+  body{
+    background-color: orangered;
+  }
+  
+  main {
+    flex-direction: column;
+    gap: 20px;
+    border: solid 2px;
+    border-radius: 15px;
+    background-color: white;
+  }
+  
+  #reponse {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #reponseImg img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  
